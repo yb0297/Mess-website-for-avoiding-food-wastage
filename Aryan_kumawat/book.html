@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food Here</title>
+    <link rel="stylesheet" href="book.css">
+    <!-- <link rel="stylesheet" href="pics/eg.css"> -->
+</head>
+<body>
+    <section id="food-menu">
+     
+        <nav >
+            <h1 class="logo">SRM FOOD</h1>
+         
+            <!-- <h2 class="food-menu-heading">Order Here</h2> -->
+            <div class="info">
+            <img src="./pics/cart.jpg"  style="height: 30px; width: 30px;"class="cart-img" target="_blank">
+            <p class="total">0</p>
+          </div>
+          </nav>
+        <h3 style="margin-left: 200px; margin-top: 100px; font-size: 30px;"class="pnts"><span>Points:</span> 1000</h3>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+              <div class="food-img">
+                <img src="pics/paneer.webp" alt="" />
+              </div>
+              <div class="food-description">
+                <h2 class="food-titile">Paneer Butter Massala</h2>
+                <h4><span>Amounts</span>Price:100</h4>
+                <p>
+                  Paneer, butter, onion, tomato, cream, spices, cashews, ginger, garlic, cilantro.
+                </p>
+                <!-- <p class="food-price">Price: &#8377; 250</p> -->
+              </div>
+            </div>
+        
+              <div class="btns">
+              <button onclick="add()">+</button>
+              <strong class="quantity-inp">0</strong>
+              <button onclick="subtract()">-</button>
+            </div>
+            
+          
+    
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="pics/chole bhature.jpg" alt="error" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Chole-Bhature</h2>
+              <h4>Price:150</h4>
+              <p>
+                Chickpeas, spices, flour, yogurt, oil, onion, tomato, cilantro, pickle.
+              </p>
+              <p class="food-price"></p>
+            </div>
+            <div>
+            </div>
+<div class="btns">
+            <button onclick="addb()">+</button>
+            <strong class="quantity-inpb">0</strong>
+            <button onclick="subtractb()">-</button>
+          </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="pics/pasta.webp" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Pasta</h2>
+              <h4>Price:90</h4>
+              <p>
+    
+                Pasta, sauce, garlic, olive oil, herbs, cheese, vegetables, salt.
+              </p>
+              <p class="food-price"></p>
+            </div>
+            <div>
+            </div>
+            <div class="btns">
+                <button onclick="addc()">+</button>
+                <strong class="quantity-inpc">0</strong>
+                <button onclick="subtractc()">-</button>
+              </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="pics/chicken.jpg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Chicken Curry</h2>
+              <h4>Price:200</h4>
+              <p>
+                Chicken, onion, tomato, spices, garlic, ginger, oil, yogurt, coriander.
+              </p>
+              <p class="food-price"></p>
+            </div>
+            <div>
+            </div>
+            <div class="btns">
+                <button onclick="addd()">+</button>
+                <strong class="quantity-inpd">0</strong>
+                <button onclick="subtractd()">-</button>
+              </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="pics/idli sambhar.jpg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Idli-Sambhar-Chutney</h2>
+              <h4>Price:50</h4>
+              <p>
+                Idli, lentil soup, coconut chutney, sambar, mustard seeds, curry leaves.
+              </p>
+              <p class="food-price"></p>
+            </div>
+            <div>
+            </div>
+            <div class="btns">
+                <button onclick="adde()">+</button>
+                <strong class="quantity-inpe">0</strong>
+                <button onclick="subtractee()">-</button>
+              </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="pics/rice.jpg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Rice</h2>
+              <h4>Price:70</h4>
+              <p>
+    
+                Rice, salt, optional: butter, herbs, spices, vegetables.
+              </p>
+              <p class="food-price"></p>
+            </div>
+            <div>
+            </div>
+            <div class="btns">
+                <button onclick="addf()">+</button>
+                <strong class="quantity-inpf">0</strong>
+                <button onclick="subtractef()">-</button>
+           </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="pics/noodles.webp" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Noodles-Manchurian</h2>
+              <h4>Price:130</h4>
+              <p>
+                Noodles, vegetables, soy sauce, garlic, ginger, cornstarch, vinegar, oil.
+              </p>
+              <p class="food-price"></p>
+            </div>
+            <div>
+            </div>
+            <div class="btns">
+                <button onclick="addg()">+</button>
+                <strong class="quantity-inpg">0</strong>
+                <button onclick="subtracteg()">-</button>
+              </div>
+          </div>
+          <div class="food-menu-item">
+            <div class="food-img">
+              <img src="pics/Daal tadka.jpg" alt="" />
+            </div>
+            <div class="food-description">
+              <h2 class="food-titile">Daal </h2>
+              <h4>Price:160</h4>
+              <p>
+                Lentils, onion, tomato, spices, garlic, ginger, oil, cilantro.
+              </p>
+              
+              <p class="food-price"></p>
+            </div>
+              <div>
+              </div>
+              <div class="btns">
+                <button onclick="addh()">+</button>
+                <strong class="quantity-inph">0</strong>
+                <button onclick="subtracteh()">-</button>
+              </div>
+          </div>
+          
+        </div>
+      </section>
+</body>
+<script src="book.js"></script>
+</html>

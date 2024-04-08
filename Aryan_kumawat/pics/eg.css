@@ -1,0 +1,50 @@
+/* Style for food menu items */
+.food-menu-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .food-menu-item {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    margin-bottom: 20px;
+  }
+  
+  .food-img {
+    width: 150px; /* Adjust width as needed */
+    margin-right: 20px;
+  }
+  
+  .food-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .food-description {
+    flex: 1;
+  }
+  
+  .food-titile {
+    font-size: 24px; /* Correct the typo in the class name */
+    margin-bottom: 10px;
+  }
+  
+  .food-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* .food-controls button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  } */
+  
+  .food-controls input {
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+  }
